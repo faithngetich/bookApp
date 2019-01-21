@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1548079073957" clover="3.2.0">
+  <project timestamp="1548079073958" name="All files">
+    <metrics statements="8" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0" elements="9" coveredelements="0" complexity="0" loc="8" ncloc="8" packages="1" files="2" classes="2">
+      <file name="router.js" path="/Users/adebayooluwadamilola/Code/bookApp/src/router.js">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+      </file>
+      <file name="store.js" path="/Users/adebayooluwadamilola/Code/bookApp/src/store.js">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+    </metrics>
+  </project>
+</coverage>
