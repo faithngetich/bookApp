@@ -1,0 +1,19 @@
+<template>
+  <form action="index.html" method="post">
+
+    <h1>Sign Up</h1>
+
+    <fieldset>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="user_name">
+
+      <label for="mail">Email:</label>
+      <input type="email" id="mail" name="user_email">
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="user_password">
+
+    </fieldset>
+    <button type="submit">Sign Up</button>
+  </form>
+</template>
