@@ -33,8 +33,9 @@ describe('Authentication Store', () => {
       expect(state.user).toEqual(user);
     });
 
-    xtest('should set user logged in status', () => {
-      // TODO for faith
+    test('should set user logged in status', () => {
+      AuthStore.mutations.setIsLoggedIn(state);
+      expect(state.isLoggedIn).toEqual(true);
     });
   });
 
