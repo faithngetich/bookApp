@@ -1,7 +1,3 @@
-/**
- * Created by adebayooluwadamilola on 2/1/19.
- */
-
 const authentication = {
   state: {
     isLoggedIn: false,
