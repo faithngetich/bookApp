@@ -11,6 +11,9 @@ const authentication = {
     setUserData: (state, payload) => {
       state.user = payload;
     },
+    setIsLoggedIn: (state) => {
+      state.isLoggedIn = true;
+    }
   },
   actions: {},
 };
