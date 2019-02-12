@@ -3,9 +3,7 @@
  */
 
 const auth = {
-  registerUser() {
-    return Promise.resolve();
-  },
+  registerUser: jest.fn(() => Promise.resolve({})),
 };
 
 export default auth;

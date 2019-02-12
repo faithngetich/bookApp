@@ -2,6 +2,7 @@
  * Created by adebayooluwadamilola on 2/1/19.
  */
 import AuthStore from '../authentication';
+import FlushPromises from 'flush-promises';
 
 jest.mock('../../../services/authentication.js');
 
@@ -13,6 +14,11 @@ describe('Authentication Store', () => {
 
   const user = {
     name: 'Test_01',
+  };
+
+  const userPayLoad = {
+    email: 'test@test.com',
+    password: 'test12345',
   };
 
   describe('Authentication Getters', () => {
@@ -40,9 +46,18 @@ describe('Authentication Store', () => {
   });
 
   describe('Authentication Actions', () => {
-    xtest('make api call to fire-base', () => {
+    test('make api call to fire-base', async () => {
+      expect.assertions(1);
+
+      const context = {
+        commit: jest.fn(),
+      };
+
+      AuthStore.actions.actionRegisterUser(context, userPayLoad);
+      await FlushPromises();
+      expect(context.commit).toHaveBeenCalledWith('setUserData', {});
 
     });
-  })
+  });
 
 });
