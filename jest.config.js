@@ -31,5 +31,6 @@ module.exports = {
     '!src/views/**',
     '!src/store/index.js',
     '!src/api/*.js',
+    '!src/services/*.js',
   ],
 };
